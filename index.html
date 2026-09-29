@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pyar Ke 2 Pal | Restaurant, Celebrations &amp; Events in Noida</title>
+  <meta name="description" content="Pyar Ke 2 Pal is a modern open-air restaurant and event venue in Sector 78, Noida. Book a table or plan birthdays, engagements, family celebrations and corporate events." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://pyarke2pal.example/" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Pyar Ke 2 Pal | Restaurant • Celebrations • Events" />
+  <meta property="og:description" content="From intimate dinners to unforgettable celebrations in Sector 78, Noida. Food, ambience and moments designed to stay with you." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" />
+  <meta property="og:locale" content="en_IN" />
+  <meta property="og:site_name" content="Pyar Ke 2 Pal" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Pyar Ke 2 Pal | Restaurant • Celebrations • Events" />
+  <meta name="twitter:description" content="A premium open-air restaurant and event venue in Sector 78, Noida." />
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" />
+
+  <!--
+    CLIENT PHOTOGRAPHY
+    All Unsplash URLs below are DEMO placeholders.
+    Replace each with the venue's own photography before launch.
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Pyar Ke 2 Pal",
+    "description": "Modern open-air restaurant and event venue in Noida for dining, celebrations and private events.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Noida",
+      "addressRegion": "Uttar Pradesh",
+      "addressCountry": "IN",
+      "streetAddress": "Sector 78"
+    },
+    "areaServed": "Noida",
+    "servesCuisine": ["Indian", "Multi-cuisine"],
+    "priceRange": "₹₹",
+    "url": "https://pyarke2pal.example/"
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- PAGE LOADER -->
+  <div class="loader" id="loader" aria-hidden="false">
+    <div class="loader__inner">
+      <p class="loader__eyebrow">Noida</p>
+      <p class="loader__logo">Pyar Ke 2 Pal</p>
+      <span class="loader__line"></span>
+      <p class="loader__tag">Restaurant · Celebrations · Events</p>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a class="logo" href="#home" aria-label="Pyar Ke 2 Pal home">
+        <span class="logo__mark">PK</span>
+        <span class="logo__text">Pyar Ke 2 Pal</span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Primary">
+        <ul class="nav__list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#celebrations">Celebrations</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a class="btn btn--gold header__cta" href="#booking">Book a Table</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero__media" id="heroMedia" aria-hidden="true">
+        <!-- CLIENT PHOTO: evening open-air seating, warm lighting -->
+        <img
+          src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&amp;fit=crop&amp;w=2000&amp;q=80"
+          alt=""
+          class="hero__image"
+        />
+        <div class="hero__overlay"></div>
+        <div class="hero__particles" id="heroParticles"></div>
+      </div>
+
+      <div class="hero__content">
+        <p class="eyebrow hero__label">Restaurant • Events • Celebrations</p>
+        <h1 class="hero__title">Make Every Moment<br />Worth Remembering.</h1>
+        <p class="hero__lead">From intimate dinners to unforgettable celebrations, experience food, ambience and moments designed to stay with you.</p>
+        <div class="hero__actions">
+          <a class="btn btn--gold" href="#booking">Book a Table</a>
+          <a class="btn btn--ghost" href="#events" data-open-event>Plan an Event</a>
+        </div>
+      </div>
+
+      <a class="scroll-hint" href="#booking">
+        <span>Scroll to explore</span>
+        <span class="scroll-hint__arrow" aria-hidden="true">↓</span>
+      </a>
+    </section>
+
+    <!-- QUICK BOOKING BAR -->
+    <section class="booking" id="booking" aria-labelledby="booking-title">
+      <div class="container">
+        <form class="booking-card" id="bookingForm" novalidate>
+          <div class="booking-card__intro">
+            <p class="eyebrow" id="booking-title">Reserve</p>
+            <h2>Check a moment</h2>
+          </div>
+
+          <label class="field">
+            <span>Event / Dining</span>
+            <select name="intent" required>
+              <option value="">Select</option>
+              <option value="Dining">Dining</option>
+              <option value="Birthday">Birthday</option>
+              <option value="Anniversary">Anniversary</option>
+              <option value="Corporate Event">Corporate Event</option>
+              <option value="Private Party">Private Party</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>Date</span>
+            <input type="date" name="date" required />
+          </label>
+
+          <label class="field">
+            <span>Guests</span>
+            <select name="guests" required>
+              <option value="">Select</option>
+              <option value="2">2</option>
+              <option value="4">4</option>
+              <option value="6">6</option>
+              <option value="8">8</option>
+              <option value="10+">10+</option>
+              <option value="20+">20+</option>
+              <option value="50+">50+</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>Occasion</span>
+            <select name="occasion" required>
+              <option value="">Select</option>
+              <option value="Date night">Date night</option>
+              <option value="Family dinner">Family dinner</option>
+              <option value="Birthday">Birthday</option>
+              <option value="Celebration">Celebration</option>
+              <option value="Corporate">Corporate</option>
+              <option value="Other">Other</option>
+            </select>
+          </label>
+
+          <button class="btn btn--gold booking-card__submit" type="submit">Check Availability</button>
+        </form>
+        <p class="booking-note">Demo booking request — no live inventory yet. Availability will later connect to the venue calendar.</p>
+      </div>
+    </section>
+
+    <!-- INTRODUCTION -->
+    <section class="intro" id="about" aria-labelledby="intro-heading">
+      <div class="container intro__grid">
+        <div class="intro__media reveal-image">
+          <!-- CLIENT PHOTO: venue exterior / lawn / open-air seating -->
+          <img
+            src="https://images.unsplash.com/photo-1424847651672-bf7a66c99d4c?auto=format&amp;fit=crop&amp;w=1400&amp;q=80"
+            alt="Warm evening outdoor dining with string lights at Pyar Ke 2 Pal"
+          />
+          <span class="intro__frame" aria-hidden="true"></span>
+        </div>
+
+        <div class="intro__copy fade-up">
+          <p class="eyebrow">The Experience</p>
+          <h2 id="intro-heading">Where Food Meets Celebration</h2>
+          <p>Pyar Ke 2 Pal is designed as more than a restaurant. It is a place for lingering dinners, family gatherings, birthdays, engagements and evenings that become stories.</p>
+          <p>Set in Sector 78, Noida, the venue brings together open-air ambience, generous gathering space and hospitality meant for both quiet tables and larger celebrations.</p>
+
+          <div class="stats" id="stats">
+            <div class="stat">
+              <p class="stat__value"><span data-count="50">0</span>–<span data-count="500">0</span></p>
+              <p class="stat__label">Guests</p>
+            </div>
+            <div class="stat">
+              <p class="stat__value">Multiple</p>
+              <p class="stat__label">Event Experiences</p>
+            </div>
+            <div class="stat">
+              <p class="stat__value"><span data-count="100">0</span>%</p>
+              <p class="stat__label">Made for Moments</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="experience" id="experience" aria-labelledby="experience-heading">
+      <div class="container">
+        <header class="section-head fade-up">
+          <p class="eyebrow">Occasions</p>
+          <h2 id="experience-heading">Something For Every Occasion</h2>
+        </header>
+
+        <div class="experience__grid">
+          <article class="xp-card">
+            <div class="xp-card__media">
+              <!-- CLIENT PHOTO: intimate table / couple dining -->
+              <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&amp;fit=crop&amp;w=1100&amp;q=80" alt="Intimate plated dinner with candlelight" />
+            </div>
+            <div class="xp-card__body">
+              <h3>Romantic Dining</h3>
+              <p>Intimate dinners, date nights and memorable evenings.</p>
+              <a href="#events" data-open-event data-event-type="Anniversary">Explore Experience <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="xp-card">
+            <div class="xp-card__media">
+              <!-- CLIENT PHOTO: birthday table / cake setup -->
+              <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5c3?auto=format&amp;fit=crop&amp;w=1100&amp;q=80" alt="Birthday cake celebration at a dressed table" />
+            </div>
+            <div class="xp-card__body">
+              <h3>Birthdays</h3>
+              <p>Celebrate with curated food, ambience and personalised arrangements.</p>
+              <a href="#events" data-open-event data-event-type="Birthday">Explore Experience <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="xp-card">
+            <div class="xp-card__media">
+              <!-- CLIENT PHOTO: family gathering / long table -->
+              <img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&amp;fit=crop&amp;w=1100&amp;q=80" alt="Family and friends gathered around a long outdoor table" />
+            </div>
+            <div class="xp-card__body">
+              <h3>Family Celebrations</h3>
+              <p>Bring everyone together for special occasions.</p>
+              <a href="#events" data-open-event data-event-type="Family Function">Explore Experience <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="xp-card">
+            <div class="xp-card__media">
+              <!-- CLIENT PHOTO: corporate dinner / private event -->
+              <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&amp;fit=crop&amp;w=1100&amp;q=80" alt="Corporate gathering in a warmly lit event space" />
+            </div>
+            <div class="xp-card__body">
+              <h3>Corporate Events</h3>
+              <p>Host team dinners, corporate gatherings and private events.</p>
+              <a href="#events" data-open-event data-event-type="Corporate Event">Explore Experience <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EVENTS -->
+    <section class="events" id="events" aria-labelledby="events-heading">
+      <div class="container">
+        <header class="section-head section-head--center fade-up">
+          <p class="eyebrow">Celebrations &amp; Private Events</p>
+          <h2 id="events-heading">Your Event. Your Way.</h2>
+          <p class="section-head__lead">From intimate gatherings to large celebrations, let us help you create an experience around your occasion.</p>
+        </header>
+
+        <div class="event-cats" id="celebrations">
+          <button class="event-cat" type="button" data-open-event data-event-type="Birthday">
+            <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="" />
+            <span>Birthdays</span>
+          </button>
+          <button class="event-cat" type="button" data-open-event data-event-type="Anniversary">
+            <img src="https://images.unsplash.com/photo-1519671485543-ecb8ea59ba3c?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="" />
+            <span>Anniversaries</span>
+          </button>
+          <button class="event-cat" type="button" data-open-event data-event-type="Wedding / Engagement">
+            <img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="" />
+            <span>Engagements</span>
+          </button>
+          <button class="event-cat" type="button" data-open-event data-event-type="Family Function">
+            <img src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="" />
+            <span>Family Functions</span>
+          </button>
+          <button class="event-cat" type="button" data-open-event data-event-type="Corporate Event">
+            <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="" />
+            <span>Corporate Events</span>
+          </button>
+          <button class="event-cat" type="button" data-open-event data-event-type="Other">
+            <img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="" />
+            <span>Private Parties</span>
+          </button>
+        </div>
+
+        <div class="events__cta fade-up">
+          <button class="btn btn--gold btn--lg" type="button" data-open-event>Plan My Event</button>
+          <p class="events__hint">This enquiry flow is a frontend demonstration of how future lead management can capture, qualify and follow up event requests.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENU -->
+    <section class="menu" id="menu" aria-labelledby="menu-heading">
+      <div class="container">
+        <header class="section-head fade-up">
+          <p class="eyebrow">The Table</p>
+          <h2 id="menu-heading">A Table Worth Gathering Around</h2>
+          <p class="section-head__lead">A curated demo menu to illustrate presentation. Replace with the restaurant’s actual dishes before launch.</p>
+        </header>
+
+        <div class="menu-tabs" role="tablist" aria-label="Menu categories">
+          <button class="is-active" role="tab" aria-selected="true" data-tab="starters">Starters</button>
+          <button role="tab" aria-selected="false" data-tab="mains">Main Course</button>
+          <button role="tab" aria-selected="false" data-tab="drinks">Drinks</button>
+          <button role="tab" aria-selected="false" data-tab="desserts">Desserts</button>
+        </div>
+
+        <div class="menu-panels">
+          <div class="menu-panel is-active" id="panel-starters" role="tabpanel">
+            <article class="dish"><div><h3>Tandoori Mushroom Medley <em>Demo</em></h3><p>Smoked mushrooms, yoghurt marinade, micro herbs.</p></div><span>₹420</span></article>
+            <article class="dish"><div><h3>Chilli Lime Prawns <em>Demo</em></h3><p>Coastal spices, citrus, crisp shallots.</p></div><span>₹560</span></article>
+            <article class="dish"><div><h3>Beetroot &amp; Goat Cheese <em>Demo</em></h3><p>Garden beets, warm cheese, pistachio dust.</p></div><span>₹390</span></article>
+            <article class="dish"><div><h3>Seekh Platter <em>Demo</em></h3><p>House-ground kebab, mint, charcoal aroma.</p></div><span>₹480</span></article>
+          </div>
+          <div class="menu-panel" id="panel-mains" role="tabpanel" hidden>
+            <article class="dish"><div><h3>Slow-Cooked Lamb Nihari <em>Demo</em></h3><p>Overnight broth, bone marrow, saffron naan.</p></div><span>₹890</span></article>
+            <article class="dish"><div><h3>Charred Paneer Lababdar <em>Demo</em></h3><p>Velvet tomato gravy, kasuri methi, laccha.</p></div><span>₹640</span></article>
+            <article class="dish"><div><h3>Coastal Fish Curry <em>Demo</em></h3><p>Kokum, coconut, steamed rice.</p></div><span>₹820</span></article>
+            <article class="dish"><div><h3>Truffle Khichdi <em>Demo</em></h3><p>Comfort rice, wild mushroom, ghee tadka.</p></div><span>₹710</span></article>
+          </div>
+          <div class="menu-panel" id="panel-drinks" role="tabpanel" hidden>
+            <article class="dish"><div><h3>Paloma Garden <em>Demo</em></h3><p>Grapefruit, rosemary, mineral fizz.</p></div><span>₹480</span></article>
+            <article class="dish"><div><h3>Saffron Old Fashioned <em>Demo</em></h3><p>House bitters, smoked orange.</p></div><span>₹620</span></article>
+            <article class="dish"><div><h3>Kaffir Cooler <em>Demo</em></h3><p>Lime leaf, cucumber, soda.</p></div><span>₹320</span></article>
+            <article class="dish"><div><h3>Masala Chai Espresso <em>Demo</em></h3><p>Malabar coffee, cardamom cream.</p></div><span>₹280</span></article>
+          </div>
+          <div class="menu-panel" id="panel-desserts" role="tabpanel" hidden>
+            <article class="dish"><div><h3>Gulab Panna Cotta <em>Demo</em></h3><p>Rose, pistachio praline, warm syrup.</p></div><span>₹360</span></article>
+            <article class="dish"><div><h3>Dark Chocolate Samosa <em>Demo</em></h3><p>Valrhona ganache, sea salt, berry.</p></div><span>₹390</span></article>
+            <article class="dish"><div><h3>Kesar Rasmalai Dome <em>Demo</em></h3><p>Saffron milk, almond sponge.</p></div><span>₹340</span></article>
+            <article class="dish"><div><h3>Seasonal Fruit Thali <em>Demo</em></h3><p>Market fruit, honey yoghurt, mint.</p></div><span>₹290</span></article>
+          </div>
+        </div>
+
+        <div class="menu__cta">
+          <a class="btn btn--outline" href="#contact">View Full Menu</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- OFFERS -->
+    <section class="offers" id="offers" aria-labelledby="offers-heading">
+      <div class="container">
+        <header class="section-head fade-up">
+          <p class="eyebrow">Curated evenings</p>
+          <h2 id="offers-heading">Evenings With Intention</h2>
+        </header>
+
+        <div class="offers__grid">
+          <article class="offer-card">
+            <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&amp;fit=crop&amp;w=1000&amp;q=80" alt="Candlelit table for two on an evening terrace" />
+            <div>
+              <p class="eyebrow">For two</p>
+              <h3>Date Night</h3>
+              <p>A curated dining experience for two.</p>
+              <button type="button" data-open-event data-event-type="Anniversary">Enquire Now</button>
+            </div>
+          </article>
+          <article class="offer-card">
+            <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&amp;fit=crop&amp;w=1000&amp;q=80" alt="Festive birthday celebration setup" />
+            <div>
+              <p class="eyebrow">Celebrate</p>
+              <h3>Birthday Celebration</h3>
+              <p>Make their special day memorable.</p>
+              <button type="button" data-open-event data-event-type="Birthday">Enquire Now</button>
+            </div>
+          </article>
+          <article class="offer-card">
+            <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&amp;fit=crop&amp;w=1000&amp;q=80" alt="Premium group dining table" />
+            <div>
+              <p class="eyebrow">Teams</p>
+              <h3>Corporate Dining</h3>
+              <p>Premium group dining and event experiences.</p>
+              <button type="button" data-open-event data-event-type="Corporate Event">Enquire Now</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="gallery" id="gallery" aria-labelledby="gallery-heading">
+      <div class="container">
+        <header class="section-head fade-up">
+          <p class="eyebrow">Moments</p>
+          <h2 id="gallery-heading">A Place That Photographs Well</h2>
+          <p class="section-head__lead">Demo photography. Replace with original venue, food and celebration images.</p>
+        </header>
+
+        <div class="masonry" id="galleryGrid">
+          <button class="masonry__item" data-index="0" type="button">
+            <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Restaurant dining room with warm evening lighting" />
+            <span>Ambience</span>
+          </button>
+          <button class="masonry__item masonry__item--tall" data-index="1" type="button">
+            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Signature plated dish" />
+            <span>The table</span>
+          </button>
+          <button class="masonry__item" data-index="2" type="button">
+            <img src="https://images.unsplash.com/photo-1424847651672-bf7a66c99d4c?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Open-air seating under string lights" />
+            <span>Outdoor seating</span>
+          </button>
+          <button class="masonry__item" data-index="3" type="button">
+            <img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Guests celebrating around a long table" />
+            <span>Celebrations</span>
+          </button>
+          <button class="masonry__item masonry__item--wide" data-index="4" type="button">
+            <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5c3?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="Birthday cake and festive table setting" />
+            <span>Birthday setup</span>
+          </button>
+          <button class="masonry__item" data-index="5" type="button">
+            <img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Evening bar lights and glassware" />
+            <span>Evening lights</span>
+          </button>
+          <button class="masonry__item" data-index="6" type="button">
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Group dining in a busy restaurant" />
+            <span>Group dining</span>
+          </button>
+          <button class="masonry__item masonry__item--tall" data-index="7" type="button">
+            <img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Event décor and floral arrangement" />
+            <span>Event setup</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY -->
+    <section class="why" aria-labelledby="why-heading">
+      <div class="container">
+        <header class="section-head section-head--light fade-up">
+          <p class="eyebrow">Why Pyar Ke 2 Pal</p>
+          <h2 id="why-heading">More Than A Meal. It's A Memory.</h2>
+        </header>
+
+        <div class="why__grid">
+          <article class="why-item slide-in">
+            <span>01</span>
+            <h3>Beautiful Ambience</h3>
+            <p>Designed for memorable evenings.</p>
+          </article>
+          <article class="why-item slide-in">
+            <span>02</span>
+            <h3>Flexible Events</h3>
+            <p>From intimate gatherings to large celebrations.</p>
+          </article>
+          <article class="why-item slide-in">
+            <span>03</span>
+            <h3>Curated Experiences</h3>
+            <p>Food, ambience and service working together.</p>
+          </article>
+          <article class="why-item slide-in">
+            <span>04</span>
+            <h3>Personalised Celebrations</h3>
+            <p>Make your occasion feel uniquely yours.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials" id="testimonials" aria-labelledby="testimonials-heading">
+      <div class="container">
+        <header class="section-head fade-up">
+          <p class="eyebrow">Guest impressions</p>
+          <h2 id="testimonials-heading">What Evenings Feel Like</h2>
+          <p class="section-head__lead">Demo reviews for presentation only. Replace with verified guest testimonials.</p>
+        </header>
+
+        <div class="quote-wrap">
+          <button class="quote-nav quote-nav--prev" type="button" aria-label="Previous testimonial">←</button>
+          <div class="quote-track" id="quoteTrack">
+            <blockquote class="quote is-active">
+              <p class="quote__stars" aria-label="5 stars">★★★★★</p>
+              <p>“Beautiful ambience, great food and the perfect place for a celebration.”</p>
+              <footer>Ananya M. <span>Demo review</span></footer>
+            </blockquote>
+            <blockquote class="quote">
+              <p class="quote__stars" aria-label="5 stars">★★★★★</p>
+              <p>“We hosted a birthday here and the evening felt considered, warm and unhurried.”</p>
+              <footer>Rohit S. <span>Demo review</span></footer>
+            </blockquote>
+            <blockquote class="quote">
+              <p class="quote__stars" aria-label="5 stars">★★★★★</p>
+              <p>“An open-air setting that works equally well for a quiet dinner and a larger gathering.”</p>
+              <footer>Neha &amp; Kabir <span>Demo review</span></footer>
+            </blockquote>
+          </div>
+          <button class="quote-nav quote-nav--next" type="button" aria-label="Next testimonial">→</button>
+        </div>
+        <div class="quote-dots" id="quoteDots" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <!-- INSTAGRAM -->
+    <section class="social" aria-labelledby="social-heading">
+      <div class="container">
+        <header class="section-head section-head--center fade-up">
+          <p class="eyebrow">Social</p>
+          <h2 id="social-heading">Follow the Moments</h2>
+        </header>
+
+        <div class="ig-grid">
+          <a class="ig-card" href="https://instagram.com/" target="_blank" rel="noopener noreferrer">
+            <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&amp;fit=crop&amp;w=700&amp;q=80" alt="Plated course shared on Instagram" />
+            <span class="ig-card__meta"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg> @pyarke2pal</span>
+          </a>
+          <a class="ig-card" href="https://instagram.com/" target="_blank" rel="noopener noreferrer">
+            <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&amp;fit=crop&amp;w=700&amp;q=80" alt="Terrace evening atmosphere" />
+            <span class="ig-card__meta"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg> @pyarke2pal</span>
+          </a>
+          <a class="ig-card" href="https://instagram.com/" target="_blank" rel="noopener noreferrer">
+            <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&amp;fit=crop&amp;w=700&amp;q=80" alt="Signature cocktail" />
+            <span class="ig-card__meta"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg> @pyarke2pal</span>
+          </a>
+          <a class="ig-card" href="https://instagram.com/" target="_blank" rel="noopener noreferrer">
+            <img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&amp;fit=crop&amp;w=700&amp;q=80" alt="Celebration décor" />
+            <span class="ig-card__meta"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg> @pyarke2pal</span>
+          </a>
+          <a class="ig-card" href="https://instagram.com/" target="_blank" rel="noopener noreferrer">
+            <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&amp;fit=crop&amp;w=700&amp;q=80" alt="Pasta course" />
+            <span class="ig-card__meta"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg> @pyarke2pal</span>
+          </a>
+          <a class="ig-card" href="https://instagram.com/" target="_blank" rel="noopener noreferrer">
+            <img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&amp;fit=crop&amp;w=700&amp;q=80" alt="Guests at a long table" />
+            <span class="ig-card__meta"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg> @pyarke2pal</span>
+          </a>
+        </div>
+
+        <div class="social__cta">
+          <!-- REPLACE: real Instagram URL when confirmed -->
+          <a class="btn btn--outline" href="https://instagram.com/" target="_blank" rel="noopener noreferrer">Follow Us on Instagram</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOCATION -->
+    <section class="location" id="location" aria-labelledby="location-heading">
+      <div class="location__grid">
+        <div class="location__map" aria-label="Map of Sector 78, Noida">
+          <iframe
+            title="Map of Sector 78, Noida"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=77.350%2C28.545%2C77.410%2C28.580&amp;layer=mapnik&amp;marker=28.562%2C77.380"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <div class="location__map-label">Sector 78, Noida</div>
+        </div>
+        <div class="location__copy">
+          <p class="eyebrow">Visit</p>
+          <h2 id="location-heading">Come Spend A Few Hours With Us</h2>
+          <ul class="location__facts">
+            <li>
+              <span>📍</span>
+              <div>
+                <strong>Address</strong>
+                <p>Sector 78, Noida</p>
+                <p class="muted">Full street address to be added with the client.</p>
+              </div>
+            </li>
+            <li>
+              <span>📞</span>
+              <div>
+                <strong>Phone</strong>
+                <p>Available on enquiry</p>
+                <p class="muted">Replace with the restaurant’s confirmed number.</p>
+              </div>
+            </li>
+            <li>
+              <span>🕐</span>
+              <div>
+                <strong>Opening hours</strong>
+                <p>Please enquire for dining and event timings.</p>
+                <p class="muted">Hours not published in this demo.</p>
+              </div>
+            </li>
+          </ul>
+          <div class="location__actions">
+            <a class="btn btn--gold" href="https://www.google.com/maps/search/?api=1&amp;query=Sector+78+Noida" target="_blank" rel="noopener noreferrer">Get Directions</a>
+            <a class="btn btn--ghost-dark" href="#contact">Call Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact" aria-labelledby="contact-heading">
+      <div class="container contact__grid">
+        <div class="contact__intro fade-up">
+          <p class="eyebrow">Event enquiry</p>
+          <h2 id="contact-heading">Planning Something Special?</h2>
+          <p>Tell us what you're planning and our team will help you create the right experience.</p>
+          <p class="contact__system">Website → Event enquiries → Lead management → Bookings → Customer database. This form is the first step of that system.</p>
+        </div>
+
+        <form class="contact-form" id="contactForm" novalidate>
+          <label class="field">
+            <span>Name</span>
+            <input type="text" name="name" autocomplete="name" required />
+          </label>
+          <label class="field">
+            <span>Phone</span>
+            <input type="tel" name="phone" autocomplete="tel" inputmode="numeric" required />
+          </label>
+          <label class="field">
+            <span>Email</span>
+            <input type="email" name="email" autocomplete="email" required />
+          </label>
+          <label class="field">
+            <span>Event type</span>
+            <select name="eventType" required>
+              <option value="">Select</option>
+              <option>Birthday</option>
+              <option>Wedding / Engagement</option>
+              <option>Corporate Event</option>
+              <option>Anniversary</option>
+              <option>Family Function</option>
+              <option>Dining</option>
+              <option>Other</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Event date</span>
+            <input type="date" name="eventDate" required />
+          </label>
+          <label class="field">
+            <span>Number of guests</span>
+            <input type="number" name="guests" min="1" max="500" required />
+          </label>
+          <label class="field field--full">
+            <span>Message</span>
+            <textarea name="message" rows="4" required></textarea>
+          </label>
+          <button class="btn btn--gold btn--lg field--full" type="submit">Send Enquiry</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <p class="logo logo--footer"><span class="logo__mark">PK</span> Pyar Ke 2 Pal</p>
+        <p class="footer__tag">Good Food. Great Company. Beautiful Moments.</p>
+      </div>
+      <nav aria-label="Footer">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#events">Events</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="footer__social">
+        <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
+        <a href="#" id="footerWhatsApp">WhatsApp</a>
+      </div>
+      <div class="footer__meta">
+        <p>Sector 78, Noida</p>
+        <p>Restaurant • Celebrations • Events</p>
+      </div>
+    </div>
+    <div class="footer__base">
+      <p>© 2026 Pyar Ke 2 Pal. All rights reserved.</p>
+      <p>Demo website — photography and reviews are placeholders.</p>
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" hidden>
+    <div class="lightbox__stage">
+      <button class="lightbox__close" type="button" aria-label="Close">×</button>
+      <button class="lightbox__prev" type="button" aria-label="Previous">←</button>
+      <img id="lightboxImage" alt="" />
+      <p class="lightbox__caption" id="lightboxCaption"></p>
+      <button class="lightbox__next" type="button" aria-label="Next">→</button>
+    </div>
+  </div>
+
+  <!-- GENERIC MODAL -->
+  <div class="modal" id="modal" hidden>
+    <div class="modal__dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal__close" type="button" aria-label="Close">×</button>
+      <div class="modal__body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <!-- EVENT ENQUIRY MODAL -->
+  <div class="modal" id="eventModal" hidden>
+    <div class="modal__dialog modal__dialog--wide" role="dialog" aria-modal="true" aria-labelledby="eventModalTitle">
+      <button class="modal__close" type="button" aria-label="Close">×</button>
+      <div class="event-flow" id="eventFlow">
+        <p class="eyebrow">Event lead</p>
+        <h2 id="eventModalTitle">Plan My Event</h2>
+        <ol class="event-progress" id="eventProgress" aria-label="Enquiry steps">
+          <li class="is-active">Occasion</li>
+          <li>Guests</li>
+          <li>Date</li>
+          <li>Details</li>
+        </ol>
+
+        <form id="eventForm" novalidate>
+          <fieldset class="event-step is-active" data-step="1">
+            <legend>What are you planning?</legend>
+            <div class="choice-grid">
+              <label><input type="radio" name="plan" value="Birthday" required /><span>Birthday</span></label>
+              <label><input type="radio" name="plan" value="Wedding / Engagement" /><span>Wedding / Engagement</span></label>
+              <label><input type="radio" name="plan" value="Corporate Event" /><span>Corporate Event</span></label>
+              <label><input type="radio" name="plan" value="Anniversary" /><span>Anniversary</span></label>
+              <label><input type="radio" name="plan" value="Family Function" /><span>Family Function</span></label>
+              <label><input type="radio" name="plan" value="Other" /><span>Other</span></label>
+            </div>
+            <button class="btn btn--gold" type="button" data-next>Continue</button>
+          </fieldset>
+
+          <fieldset class="event-step" data-step="2" hidden>
+            <legend>Guest count</legend>
+            <div class="choice-grid choice-grid--row">
+              <label><input type="radio" name="count" value="10–30" required /><span>10–30</span></label>
+              <label><input type="radio" name="count" value="30–50" /><span>30–50</span></label>
+              <label><input type="radio" name="count" value="50–100" /><span>50–100</span></label>
+              <label><input type="radio" name="count" value="100–250" /><span>100–250</span></label>
+              <label><input type="radio" name="count" value="250+" /><span>250+</span></label>
+            </div>
+            <div class="event-nav">
+              <button class="btn btn--ghost-dark" type="button" data-prev>Back</button>
+              <button class="btn btn--gold" type="button" data-next>Continue</button>
+            </div>
+          </fieldset>
+
+          <fieldset class="event-step" data-step="3" hidden>
+            <legend>Preferred date</legend>
+            <label class="field">
+              <span>Date</span>
+              <input type="date" name="preferredDate" required />
+            </label>
+            <div class="event-nav">
+              <button class="btn btn--ghost-dark" type="button" data-prev>Back</button>
+              <button class="btn btn--gold" type="button" data-next>Continue</button>
+            </div>
+          </fieldset>
+
+          <fieldset class="event-step" data-step="4" hidden>
+            <legend>Your details</legend>
+            <label class="field">
+              <span>Name</span>
+              <input type="text" name="leadName" autocomplete="name" required />
+            </label>
+            <label class="field">
+              <span>Phone</span>
+              <input type="tel" name="leadPhone" autocomplete="tel" required />
+            </label>
+            <div class="event-nav">
+              <button class="btn btn--ghost-dark" type="button" data-prev>Back</button>
+              <button class="btn btn--gold" type="submit">Request Event Proposal</button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- FLOATING UI -->
+  <a class="wa-float" id="whatsappBtn" href="#" target="_blank" rel="noopener noreferrer" aria-label="Enquire on WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20.5 3.5A11 11 0 0 0 2.1 17.1L1 23l6.1-1.1A11 11 0 0 0 20.5 3.5zm-8.5 17a9.1 9.1 0 0 1-4.6-1.3l-.3-.2-3.6.7.7-3.5-.2-.3A9.1 9.1 0 1 1 12 20.5zm5-6.8c-.3-.1-1.6-.8-1.9-.9s-.4-.1-.6.1-.7.9-.8 1-.3.2-.6.1a7.4 7.4 0 0 1-2.2-1.4 8.2 8.2 0 0 1-1.5-1.9c-.2-.3 0-.4.1-.6l.4-.5.1-.3a.5.5 0 0 0 0-.5c0-.1-.6-1.5-.8-2s-.4-.5-.6-.5h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4 15.6 15.6 0 0 0 1.5.6 3.6 3.6 0 0 0 1.7.1 2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.6-.3z"/></svg>
+  </a>
+
+  <button class="to-top" id="toTop" type="button" aria-label="Back to top">↑</button>
+
+  <div class="mobile-cta" id="mobileCta">
+    <a href="#booking">Book Table</a>
+    <a href="#events" data-open-event>Plan Event</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
